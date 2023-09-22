@@ -1,24 +1,27 @@
-math_q= input("is two plus two an odd number or even")
-if math_q== "even":
-    print("correct") 
-else: 
-    print("incorrect")
+sent = input ("please type a sentence.")
+print (sent)
 
+
+
+
+
+#Tip Calculator
 service= input ("tip value")
 if service== "bad":
-    print("0%") 
-if service== "okay":
-    print("15%") 
-if service== "good":
-    print("20%")
-if service== "great":
-    print("20%") 
+        print("0%") 
+elif service== "okay":
+        print("15%") 
+elif service== "good":
+        print("20%")
+elif service== "great":
+        print("20%")
 
 
-
-
-
-
+# Lists
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print (i) 
 
 
 
