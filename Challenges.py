@@ -1,12 +1,5 @@
-sent = input ("please type a sentence.")
-print (sent)
-
-
-
-
-
 #Tip Calculator
-service= input ("tip value")
+""" service= input ("tip value")
 if service== "bad":
         print("0%") 
 elif service== "okay":
@@ -17,11 +10,16 @@ elif service== "great":
         print("20%")
 
 
-# Lists
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print (i) 
+
+ """
 
 
-
+#Challenge Number 2 
+BigQ= input ("TYPE  A NUMBER AND I WILL DETERMINE IF ITS EVEN OR ODD.") 
+x = int(BigQ)
+print(x) 
+y = x % 2 
+if y == 0:
+        print("EVEN") 
+elif y > 0: 
+        print("ODD") 

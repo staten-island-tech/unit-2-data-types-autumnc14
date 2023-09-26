@@ -1,0 +1,32 @@
+#Functions are inputs and outputs  
+Sent =  input 
+Print (sent)
+(strings)
+#strings can be SPLITTEEDDD 
+Splitting
+Sent = input (please type a sentence”)
+Broken = sent.split
+print (broken)
+Then, input a word/number
+# Thismakes a List It’ll  look like this: "Stell,” “has”, “many”, “questions”.
+#Length= 
+Print (len(broken))
+Strings are only for WORDS 
+To input numbers, change the data type
+Sent = input 
+x= int(sent)
+print(type(x))
+math_q= input("is two plus two an odd number or even")
+if math_q== "even":
+    print("correct") 
+else: 
+    print("incorrect")
+service= input ("tip value")
+if service== "bad":
+    print("0%") 
+elif service== "okay":
+    print("15%") 
+elif service== "good":
+    print("20%")
+elif service== "great":
+    print("20%") 
