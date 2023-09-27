@@ -14,7 +14,7 @@ elif service== "great":
  """
 
 
-#Challenge Number 2 
+#odd or even
 BigQ= input ("TYPE  A NUMBER AND I WILL DETERMINE IF ITS EVEN OR ODD.") 
 x = int(BigQ)
 print(x) 
