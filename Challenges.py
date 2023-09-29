@@ -9,7 +9,6 @@ elif service== "good":
 elif service== "great":
         print("25%")
 
-
 #odd or even
 BigQ= input ("TYPE  A NUMBER AND I WILL DETERMINE IF ITS EVEN OR ODD.") 
 x = int(BigQ)
@@ -20,16 +19,12 @@ if y == 0:
 elif y > 0: 
         print("ODD") 
 
-# All factors of the number
-def the_factors(x):
-        print("these are the factors of x:") 
-        for i in range (1, x+1): 
-                if x % 1 == 0 : 
-                        print(i) 
-the_factors(100)
 
-
-
+GCF = [1,3,4,8]
+b = GCF[-1] 
+print (b)
+#put -1 bc if it takes other number for ex c= GCF [0], it'll produce the last item of the list. If it's not in order, put it in max (gcf)
+Math_quest = input("enter a number and i will determine the gcf") 
 
 
 

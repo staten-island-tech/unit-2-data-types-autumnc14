@@ -37,7 +37,7 @@ We can access individual elements in the list by using brackets ([]) and the ele
 print(values[0])
 print(values[6])
 ```
-By printing the values at position 0 and 6 we can access the first and last elements. Try accessing element 7 and see what happens. Would you have been able to debug this?
+By printing the values at position 0 and 6 we can access the first and last elements. Try accessing element 7 and see what happens. Would you have been able to debug this? 
 
 # Strings
 Strings are a list of characters that represent text. It's important to  understand that a String is not simply "just text", it is instead a list of characters. For example, "test" is really a list with each letter stored as an element in a list.
@@ -100,7 +100,6 @@ Let's create a function that determines if a number is odd or even
 Let's create a function to accept a "bill" value and offer a tip of 0%, 15%, 20% or 25% depending on if the service was "bad, okay, good , or great ". 
 
 ## Challenge
-
 Create a function that accepts an input and determines all factors of the number. 
 
 ## Challenge 
