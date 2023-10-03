@@ -1,9 +1,11 @@
-num=int(input("please enter a number"))
-num2=int(input("please enter another number")) 
-def gcf(x , y): 
-    for i in range (1, y):
-        if num%1==0 and num2%i==0:
-            print(i)
-gcf(x , y)
-
-
+def highestFactor(numX,numY):
+    if numX > numY:
+        x = numY
+    else:
+        x = numX
+    while x > 1:
+        if numX % x == 0 and numY % x == 0:
+            break
+        x -= 1
+    print (x)
+highestFactor(8,22)
