@@ -13,7 +13,6 @@ elif y > 0:
 #if x is false + y is True = x and y ARENT equal 
 #if x is false + y is false = x and y are equal
 
-x = 
 y = True
 
 def truthy (x,y):
@@ -24,43 +23,8 @@ def truthy (x,y):
 truthy (x,y) 
 #if you input a number instead of a word, itll keep showing true, thats a glitch. To look at 
 
-if type(x)!= bool or type (y) 
+#if type(x)!= bool or type (y) 
 
 
 # if something is equal type (==), if it's not, then put (!=) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

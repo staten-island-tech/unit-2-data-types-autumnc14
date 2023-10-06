@@ -19,12 +19,20 @@ if y == 0:
 elif y > 0: 
         print("ODD") 
 
+#Factors and GCF 
+num=int(input("Please enter a number"))
+num2=int(input("Please enter another number:"))
+factors = []
+def gcf(x,y):
+    for i in range(2, y):
+        if x%i==0 and y%i==0:
+            factors.append(i)
+    print(max(factors))
+    #save button = ctrl s 
+#num and num2 should be x and y
+gcf(num,num2)
 
-GCF = [1,3,4,8]
-b = GCF[-1] 
-print (b)
-#put -1 bc if it takes other number for ex c= GCF [0], it'll produce the last item of the list. If it's not in order, put it in max (gcf)
-Math_quest = input("enter a number and i will determine the gcf") 
+
 
 
 
